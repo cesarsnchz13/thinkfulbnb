@@ -172,6 +172,7 @@ form {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    flex-wrap:wrap;
   }
   form label {
     font-size: 15px;
