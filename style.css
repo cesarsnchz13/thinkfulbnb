@@ -135,7 +135,7 @@ footer p {
 }
 
 /* -------  Media Query ------- */
-@media all and (min-width: 600px) {
+@media all and (min-width: 480px) {
   header {
     display:flex;
     justify-content: space-between;
@@ -157,12 +157,17 @@ footer p {
     font-size: 50px;
     padding-top: 20px;
   }
+  
+  /*  ---- HEADER CHANGES----  */
  header nav {
    margin-top:20px;
   }
   section form div {
     flex-direction: column;
   }
+  
+  /* ----INPUT FORM CHANGES---- */
+  
 form {
     display: flex;
     flex-direction: row;
@@ -179,6 +184,7 @@ form {
     font-size: 18px;
   }
 
+ /* ---- IMAGES AND TEXT GROUP CHANGES----  */
   .group{
     display:flex;
     flex-direction:row;
@@ -201,6 +207,8 @@ form {
   #host{
     flex-direction:row
   }
+  
+  /* ---- TEXT SIZE ADJUSTMENT IN FOOTER----  */
   footer p{
     font-size: 15px;
   }
